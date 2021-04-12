@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>몬스터 헌터 빌드</title>
+
+        <style>
+            .icon {
+                border: 15px;
+                border-color: lightyellow;
+                border-style: ridge;
+                border-radius: 0px;                
+                background-color: lightgray;
+                margin-left: 40px;
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }           
+            #icon1 {
+                float: left;             
+            }
+            #icon2 {
+                float: left;
+            }
+            #icon3 {
+                float: left;
+            }
+            #icon4 {
+                float: left;
+            }
+            #icon5 {
+                float: left;
+            }
+            #icon6 {
+                float: left;
+            }
+            #icon7 {
+                float: none;
+            }
+            #icon8 {
+                float: left;             
+            }
+            #icon9 {
+                float: left;
+            }
+            #icon10 {
+                float: left;
+            }
+            #icon11 {
+                float: left;
+            }
+            #icon12 {
+                float: left;
+            }
+            #icon13 {
+                float: left;
+            }
+            #icon14 {
+                float: none;
+            }
+            #title1 {
+                padding-left: 30px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            #build1 {
+                padding-left: 30px;
+                font-size: 20px;                
+            }
+            #title2 {
+                padding-left: 30px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            #build2 {
+                padding-left: 30px;
+                font-size: 20px;                
+            }
+            header {  
+                padding-left: 30px;
+                font-size: 40px;
+                font-weight: bold;
+            }            
+        </style>
+
+        <script>
+            function effect(choice) {
+                if(choice == 1) {
+                    var title = document.getElementById("title1");
+                    var build = document.getElementById("build1");                    
+                    if(title.innerHTML == "대검") {
+                        title.innerHTML = "";
+                        build.innerHTML = "";
+                    } else {
+                        title.innerHTML = "대검";                                        
+                        build.innerHTML = '아직 등록된 빌드가 없습니다.';
+                    }                    
+                } else if(choice == 2) {
+                    var title = document.getElementById("title1");
+                    var build = document.getElementById("build1");                    
+                    if(title.innerHTML == "태도") {
+                        title.innerHTML = "";
+                        build.innerHTML = "";
+                    } else {
+                        title.innerHTML = "태도";                                        
+                        build.innerHTML = '아직 등록된 빌드가 없습니다.';
+                    } 
+                } else if(choice == 3) {
+                    var title = document.getElementById("title1");
+                    var build = document.getElementById("build1");                    
+                    if(title.innerHTML == "한손검") {
+                        title.innerHTML = "";
+                        build.innerHTML = "";
+                    } else {
+                        title.innerHTML = "한손검";                                        
+                        build.innerHTML = '아직 등록된 빌드가 없습니다.';
+                    } 
+                } else if(choice == 4) {
+                    var title = document.getElementById("title1");
+                    title.innerHTML = "쌍검";
+                    var build = document.getElementById("build1");
+                    build.innerHTML = '<a href="build4_1.html">무속성 깡공 쌍검(21.04)</a>';
+                } else if(choice == 5) {
+                    var title = document.getElementById("title1");
+                    var build = document.getElementById("build1");                    
+                    if(title.innerHTML == "해머") {
+                        title.innerHTML = "";
+                        build.innerHTML = "";
+                    } else {
+                        title.innerHTML = "해머";                                        
+                        build.innerHTML = '아직 등록된 빌드가 없습니다.';
+                    } 
+                } else if(choice == 6) {
+                    var title = document.getElementById("title1");
+                    var build = document.getElementById("build1");                    
+                    if(title.innerHTML == "수렵피리") {
+                        title.innerHTML = "";
+                        build.innerHTML = "";
+                    } else {
+                        title.innerHTML = "수렵피리";                                        
+                        build.innerHTML = '아직 등록된 빌드가 없습니다.';
+                    } 
+                } else if(choice == 7) {
+                    var title = document.getElementById("title1");
+                    var build = document.getElementById("build1");                    
+                    if(title.innerHTML == "랜스") {
+                        title.innerHTML = "";
+                        build.innerHTML = "";
+                    } else {
+                        title.innerHTML = "랜스";                                        
+                        build.innerHTML = '아직 등록된 빌드가 없습니다.';
+                    } 
+                } else if(choice == 8) {
+                    var title = document.getElementById("title2");
+                    var build = document.getElementById("build2");                    
+                    if(title.innerHTML == "건랜스") {
+                        title.innerHTML = "";
+                        build.innerHTML = "";
+                    } else {
+                        title.innerHTML = "건랜스";                                        
+                        build.innerHTML = '아직 등록된 빌드가 없습니다.';
+                    } 
+                } else if(choice == 9) {
+                    var title = document.getElementById("title2");
+                    var build = document.getElementById("build2");                    
+                    if(title.innerHTML == "슬래시액스") {
+                        title.innerHTML = "";
+                        build.innerHTML = "";
+                    } else {
+                        title.innerHTML = "슬래시액스";                                        
+                        build.innerHTML = '아직 등록된 빌드가 없습니다.';
+                    } 
+                } else if(choice == 10) {
+                    var title = document.getElementById("title2");
+                    var build = document.getElementById("build2");                    
+                    if(title.innerHTML == "차지액스") {
+                        title.innerHTML = "";
+                        build.innerHTML = "";
+                    } else {
+                        title.innerHTML = "차지액스";                                        
+                        build.innerHTML = '아직 등록된 빌드가 없습니다.';
+                    }
+                } else if(choice == 11) {
+                    var title = document.getElementById("title2");
+                    var build = document.getElementById("build2");                    
+                    if(title.innerHTML == "조충곤") {
+                        title.innerHTML = "";
+                        build.innerHTML = "";
+                    } else {
+                        title.innerHTML = "조충곤";                                        
+                        build.innerHTML = '아직 등록된 빌드가 없습니다.';
+                    }
+                } else if(choice == 12) {
+                    var title = document.getElementById("title2");
+                    var build = document.getElementById("build2");                    
+                    if(title.innerHTML == "활") {
+                        title.innerHTML = "";
+                        build.innerHTML = "";
+                    } else {
+                        title.innerHTML = "활";                                        
+                        build.innerHTML = '아직 등록된 빌드가 없습니다.';
+                    }
+                } else if(choice == 13) {
+                    var title = document.getElementById("title2");
+                    var build = document.getElementById("build2");                    
+                    if(title.innerHTML == "라이트보우건") {
+                        title.innerHTML = "";
+                        build.innerHTML = "";
+                    } else {
+                        title.innerHTML = "라이트보우건";                                        
+                        build.innerHTML = '아직 등록된 빌드가 없습니다.';
+                    }
+                } else if(choice == 14) {
+                    var title = document.getElementById("title2");
+                    var build = document.getElementById("build2");                    
+                    if(title.innerHTML == "헤비보우건") {
+                        title.innerHTML = "";
+                        build.innerHTML = "";
+                    } else {
+                        title.innerHTML = "헤비보우건";                                        
+                        build.innerHTML = '아직 등록된 빌드가 없습니다.';
+                    }
+                }
+               
+            }           
+        </script>
+
+    </head>
+    <body>
+
+        <header>
+            몬스터 헌터 라이즈 [빌드]
+        </header>
+
+        <div>
+            <p><img id="icon1" class="icon" src="img/icon1.png" alt="대검" onclick="effect(1)"></p>
+            <p><img id="icon2" class="icon" src="img/icon2.png" alt="태도" onclick="effect(2)"></p>
+            <p><img id="icon3" class="icon" src="img/icon3.png" alt="한손검" onclick="effect(3)"></p>
+            <p><img id="icon4" class="icon" src="img/icon4.png" alt="쌍검" onclick="effect(4)"></p>
+            <p><img id="icon5" class="icon" src="img/icon5.png" alt="해머" onclick="effect(5)"></p>
+            <p><img id="icon6" class="icon" src="img/icon6.png" alt="수렵피리" onclick="effect(6)"></p>
+            <p><img id="icon7" class="icon" src="img/icon7.png" alt="랜스" onclick="effect(7)"></p>
+
+            <p id="title1"></p>
+            <p id="build1"></p>
+
+            <p><img id="icon8" class="icon" src="img/icon8.png" alt="건랜스" onclick="effect(8)"></p>
+            <p><img id="icon9" class="icon" src="img/icon9.png" alt="슬래시액스" onclick="effect(9)"></p>
+            <p><img id="icon10" class="icon" src="img/icon10.png" alt="차지액스" onclick="effect(10)"></p>
+            <p><img id="icon11" class="icon" src="img/icon11.png" alt="조충곤" onclick="effect(11)"></p>
+            <p><img id="icon12" class="icon" src="img/icon12.png" alt="활" onclick="effect(12)"></p>
+            <p><img id="icon13" class="icon" src="img/icon13.png" alt="라이트보우건" onclick="effect(13)"></p>
+            <p><img id="icon14" class="icon" src="img/icon14.png" alt="헤비보우건" onclick="effect(14)"></p>
+
+            <p id="title2"></p>
+            <p id="build2"></p>
+        </div>
+
+        <div style="position: fixed; right: 20px; bottom: 10px; font-weight: bold;">
+            made by yumehama
+        </div>
+
+    </body>
+</html>

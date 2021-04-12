@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>몬스터 헌터 빌드 - 무속성 깡공 쌍검(21.04)</title>
+
+        <style>
+            .icon {
+                border: 15px;
+                border-color: lightyellow;
+                border-style: ridge;
+                border-radius: 0px;                
+                background-color: lightgray;
+                margin-left: 40px;
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }           
+            .settingTable {
+                border-collapse: collapse;
+                margin: 25px 0;
+                font-size: 0.9em;
+                font-family: sans-serif;
+                min-width: 400px;
+                box-shadow: 0 0 20px rgba(0, 107, 71, 0.15);
+            }
+            .settingTable thead tr {
+                background-color: #009c7d;
+                color: #ffffff;
+                text-align: left;
+            }
+            .settingTable th,
+            .settingTable td {
+                padding: 12px 15px;
+            }
+            .settingTable tbody tr {
+                border-bottom: 1px solid #999999;
+            }
+            .settingTable tbody tr:nth-of-type(even) {
+                background-color: #f3f3f3;
+            }
+            .settingTable tbody tr:last-of-type {
+                border-bottom: 2px solid #00755e;
+            }
+            header {  
+                padding-left: 30px;
+                font-size: 40px;
+                font-weight: bold;
+            } 
+            .divTable {  
+                padding-left: 20px;     
+                padding-right: 20px;   
+                float: left;         
+            } 
+            .equip th {
+                width: 40px;
+                text-align: center;
+            }
+            .equip td {
+                width: 150px;
+                text-align: center;                
+            }
+            .skill th {
+                width: 150px;
+                text-align: center;
+            }
+            .skill td {
+                width: 30px;
+                text-align: center;
+                font-weight: bold;
+            }
+            .jewel {
+                color: rgb(214, 0, 0);
+            }
+            .max {
+                color: rgb(221, 103, 0);
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <header>
+            <div>
+                <p style="float: left; margin-right: 20px;">무속성 깡공 쌍검(21.04)</p>            
+                <p style="font-size: 20px; padding-top: 65px;"> <a href="index.html">뒤로가기</a> </p>
+            </div>
+        </header>
+
+        <div style="clear: both;" class="divTable">
+            <table border="1" bordercolor=#009879 class="settingTable">
+                <thead>
+                    <tr>
+                        <p><td colspan="3" align="center">장비 세팅</td></p>
+                    </tr>
+                </thead>
+                <tbody class="equip">
+                    <tr>
+                        <th>무기</th>
+                        <td>야천연인[흑익]</td>
+                        <td>2-0-0</td>
+                    </tr>
+                    <tr>
+                        <th>머리</th>
+                        <td>무복상투-원</td>
+                        <td>1-0-0</td>
+                    </tr>
+                    <tr>
+                        <th>몸통</th>
+                        <td>무복백의-원</td>
+                        <td>1-0-0</td>
+                    </tr>
+                    <tr>
+                        <th>팔</th>
+                        <td>카가치S암</td>
+                        <td>2-0-0</td>
+                    </tr>    
+                    <tr>
+                        <th>허리</th>
+                        <td>스파이오S앙카</td>
+                        <td>0-0-0</td>
+                    </tr>   
+                    <tr>
+                        <th>다리</th>
+                        <td>금빛하의</td>
+                        <td>1-1-0</td>
+                    </tr>    
+                    <tr>
+                        <th>호석</th>
+                        <td>폭풍 신의 호석</td>
+                        <td>3-1-0</td>
+                    </tr>
+                </tbody>        
+            </table>           
+        </div>
+
+        <div class="divTable">
+            <table border="1" bordercolor=#009879 class="settingTable">
+                <thead class="skill">
+                    <tr>
+                        <th>스킬</th>
+                        <td>무기</td>
+                        <td>머리</td>
+                        <td>몸통</td>
+                        <td>팔</td>
+                        <td>허리</td>
+                        <td>다리</td>
+                        <td>호석</td>
+                    </tr>
+                </thead>
+                <tbody class="skill">
+                    <tr>
+                        <th>체술 Lv.5</th>
+                        <td class="jewel">2</td>
+                        <td></td>
+                        <td></td>
+                        <td>3</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th class="max">명검 Lv.3</th>
+                        <td></td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th class="max">탄환 절약 Lv.3</th>
+                        <td></td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th class="max">약점 특효 Lv.3</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2</td>
+                        <td></td>
+                        <td>1</td>
+                    </tr>    
+                    <tr>
+                        <th class="max">기절 내성 Lv.3</th>
+                        <td></td>
+                        <td class="jewel">1</td>
+                        <td class="jewel">1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="jewel">1</td>
+                    </tr>   
+                    <tr>
+                        <th>슈퍼회심 Lv.2</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2</td>
+                        <td></td>
+                    </tr>    
+                    <tr>
+                        <th>숫돌 사용 고속화 Lv.2</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="jewel">2</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>밧줄벌레꾼 Lv.1</th>
+                        <td></td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>회피 성능 Lv.1</th>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>도전자 Lv.1</th>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>힘의 해방 Lv.1</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>회피 거리 UP Lv.1</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                    </tr>
+                </tbody>        
+            </table>           
+        </div>
+
+    </body>
+</html>
