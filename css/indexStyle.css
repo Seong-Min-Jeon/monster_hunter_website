@@ -1,0 +1,76 @@
+.icon {
+    border: 15px;
+    border-color: lightyellow;
+    border-style: ridge;
+    border-radius: 0px;                
+    background-color: lightgray;
+    margin-left: 3%;
+    margin-top: 50px;
+    margin-bottom: 20px;     
+    width: 6%;           
+}           
+#icon1 {
+    float: left;             
+}
+#icon2 {
+    float: left;
+}
+#icon3 {
+    float: left;
+}
+#icon4 {
+    float: left;
+}
+#icon5 {
+    float: left;
+}
+#icon6 {
+    float: left;
+}
+#icon7 {
+    float: none;
+}
+#icon8 {
+    float: left;             
+}
+#icon9 {
+    float: left;
+}
+#icon10 {
+    float: left;
+}
+#icon11 {
+    float: left;
+}
+#icon12 {
+    float: left;
+}
+#icon13 {
+    float: left;
+}
+#icon14 {
+    float: none;
+}
+#title1 {
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#build1 {
+    padding-left: 30px;
+    font-size: 20px;                
+}
+#title2 {
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#build2 {
+    padding-left: 30px;
+    font-size: 20px;                
+}
+header {  
+    padding-left: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}        

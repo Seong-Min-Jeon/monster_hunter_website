@@ -2,87 +2,17 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>몬스터 헌터 빌드 - 무속성 깡공 쌍검(21.04)</title>
-
-        <style>
-            .icon {
-                border: 15px;
-                border-color: lightyellow;
-                border-style: ridge;
-                border-radius: 0px;                
-                background-color: lightgray;
-                margin-left: 40px;
-                margin-top: 50px;
-                margin-bottom: 20px;
-            }           
-            .settingTable {
-                border-collapse: collapse;
-                margin: 25px 0;
-                font-size: 0.9em;
-                font-family: sans-serif;
-                min-width: 400px;
-                box-shadow: 0 0 20px rgba(0, 107, 71, 0.15);
-            }
-            .settingTable thead tr {
-                background-color: #009c7d;
-                color: #ffffff;
-                text-align: left;
-            }
-            .settingTable th,
-            .settingTable td {
-                padding: 12px 15px;
-            }
-            .settingTable tbody tr {
-                border-bottom: 1px solid #999999;
-            }
-            .settingTable tbody tr:nth-of-type(even) {
-                background-color: #f3f3f3;
-            }
-            .settingTable tbody tr:last-of-type {
-                border-bottom: 2px solid #00755e;
-            }
-            header {  
-                padding-left: 30px;
-                font-size: 40px;
-                font-weight: bold;
-            } 
-            .divTable {  
-                padding-left: 20px;     
-                padding-right: 20px;   
-                float: left;         
-            } 
-            .equip th {
-                width: 40px;
-                text-align: center;
-            }
-            .equip td {
-                width: 150px;
-                text-align: center;                
-            }
-            .skill th {
-                width: 150px;
-                text-align: center;
-            }
-            .skill td {
-                width: 30px;
-                text-align: center;
-                font-weight: bold;
-            }
-            .jewel {
-                color: rgb(214, 0, 0);
-            }
-            .max {
-                color: rgb(221, 103, 0);
-            }
-        </style>
+        <link rel="stylesheet" href="css/buildStyle.css">
 
     </head>
     <body>
 
         <header>
-            <div>
+            <div>    
                 <p style="float: left; margin-right: 20px;">무속성 깡공 쌍검(21.04)</p>            
-                <p style="font-size: 20px; padding-top: 65px;"> <a href="index.html">뒤로가기</a> </p>
+                <p style="font-size: 20px; padding-top: 65px;"> <a style="color: darkgreen;" href="index.html">뒤로가기</a> </p>
             </div>
         </header>
 
@@ -96,33 +26,38 @@
                 <tbody class="equip">
                     <tr>
                         <th>무기</th>
-                        <td>야천연인[흑익]</td>
+                        <td><a href="http://mhf.inven.co.kr/dataninfo/mhr/weapon/?code=280">야천연인[흑익]</a></td>
                         <td>2-0-0</td>
                     </tr>
                     <tr>
                         <th>머리</th>
-                        <td>무복상투-원</td>
+                        <td><a href="http://mhf.inven.co.kr/dataninfo/mhr/armor/?code=475">무복상투-원</a></td>
                         <td>1-0-0</td>
                     </tr>
                     <tr>
                         <th>몸통</th>
-                        <td>무복백의-원</td>
+                        <td><a href="http://mhf.inven.co.kr/dataninfo/mhr/armor/?code=476">무복백의-원</a></td>
                         <td>1-0-0</td>
                     </tr>
                     <tr>
                         <th>팔</th>
-                        <td>카가치S암</td>
+                        <td><a href="http://mhf.inven.co.kr/dataninfo/mhr/armor/?code=499">카가치S암</a></td>
                         <td>2-0-0</td>
                     </tr>    
                     <tr>
                         <th>허리</th>
-                        <td>스파이오S앙카</td>
+                        <td><a href="http://mhf.inven.co.kr/dataninfo/mhr/armor/?code=314">스파이오S앙카</a></td>
                         <td>0-0-0</td>
                     </tr>   
                     <tr>
                         <th>다리</th>
-                        <td>금빛하의</td>
+                        <td><a href="http://mhf.inven.co.kr/dataninfo/mhr/armor/?code=575">금빛하의</a></td>
                         <td>1-1-0</td>
+                    </tr>   
+                    <tr>
+                        <th>꽃팔찌</th>
+                        <td>귀향의 꽃팔지-삼륜</td>
+                        <td></td>
                     </tr>    
                     <tr>
                         <th>호석</th>
@@ -270,6 +205,132 @@
                     </tr>
                 </tbody>        
             </table>           
+        </div>
+
+        <div style="clear: both;">
+            <div class="stat">
+                <p style="color: red;">공격력: 213</p>
+                <p style="color: rosybrown;">방어력: 345</p>
+                <p style="color: violet;">회심률: 45%</p>    
+                <p style="color: rgb(73, 73, 73);">속성 없음</p>         
+            </div>
+    
+            <div class="stat">
+                <p>백룡 강화: 공격력 강화 III</p>
+            </div>
+
+            <div class="stat">
+                <p>교체 기술1: 귀인공무</p>
+                <p>교체 기술2: 귀인화[짐승]</p>
+                <p>교체 기술3: 벌레철사 베기</p>
+            </div>
+        </div>
+
+        <div style="clear: both;">
+            <div class="manual"> 
+                <strong>주력 기술 커맨드</strong>
+                <br>
+                <strong>1.</strong>
+                <i>귀인공무: 귀인화, 귀인강화 상태에서 A (방향키 상관없음)</i>
+                <br>
+                <strong>2.</strong>
+                <i>귀인공선연참: 귀인공무 히트 시 자동 발생</i>
+                <br>
+                <strong>3.</strong>
+                <i>공중 회전베기: 귀인화 상태, 공중에서 X</i>
+                <br>
+                <strong>4.</strong>
+                <i>공중 회전난무: 귀인화, 귀인강화 상태, 공중에서 A</i>
+                <br>
+                <strong>5.</strong>
+                <i>회전난무 피니시: 귀인상태의 공중 회전난무 중 X or A</i>
+                <br>
+                <strong>6.</strong>
+                <i>점프2단베기: 귀인강화 상태, 공중에서 X</i>
+                <br>
+                <strong>7.</strong>
+                <i>귀인화[짐승]: ZR</i>
+                <br>
+                <strong>8.</strong>
+                <i>귀인난무: 귀인화 상태에서 X+A</i>
+                <br>
+                <strong>8.</strong>
+                <i>귀인연참: 귀인강화 상태에서 X+A(X+A X+A)</i>
+            </div>
+
+            <div class="manual"> 
+                <strong>콤보 루트</strong>
+                <br>
+                <strong>1.</strong>
+                <i>(귀인화 상태) 귀인공무 -> 귀인공선연참 -> 공중 회전베기 -> 공중 회전난무</i>
+                <br>
+                <strong>2.</strong>
+                <i>(귀인강화 상태) 귀인공무 -> 귀인공선연참 -> 공중 회전난무 -> 회전난무 피니시</i>
+                <br>
+                <strong>3.</strong>
+                <i>(귀인강화 상태) 귀인공무 -> 귀인공선연참 -> 점프2단베기</i>
+                <br>
+                <strong>4.</strong>
+                <i>(귀인강화 상태) 귀인공무 -> 귀인공선연참 -> 귀인화[짐승] -> 공중 회전난무</i>
+                <br>
+            </div>
+
+            <div class="manual"> 
+                <strong>운영법</strong>
+                <br>
+                <strong>1.</strong>
+                <i>귀인강화를 항상 발동시킨다.</i>
+                <br>
+                <strong>2.</strong>
+                <i>회피와 귀인화를 조절하면서 스테미나 관리를 해야한다. (스테미나가 0이면 회피를 사용할 수 없다.)</i>
+                <br>
+                <strong>3.</strong>
+                <i>귀인공무를 헛치지 않는 것이 중요하다. -> 헛친 상태에서 A를 연타하면 추가타가 나가기 때문에 빈틈이 생길 수도 있다.</i>
+                <br>
+                <strong>4.</strong>
+                <i>맞고 날라가는 중에 밧줄벌레 낙법을 사용, 착지 전 귀인화를 사용한다.</i>
+                <strong>5.</strong>
+                <i>국소적인 약점 부위를 공격할 타이밍이 오면 귀인난무, 귀인연격을 사용한다.</i>
+            </div>
+
+            <div class="manual"> 
+                <strong>솔플 운영법</strong>
+                <br>
+                <strong>1.</strong>
+                <i>몬스터가 후딜이 있는 기술을 헛치게 유도하고 콤보를 사용한다.</i>
+                <br>
+                <strong>2.</strong>
+                <i>밧줄벌레 낙법을 몬스터 방향으로 사용할 시 맞을 가능성이 높다. (나를 인식하고 있을 가능성이 높기 때문)</i>           
+                <br>
+                <strong>3.</strong>
+                <i>숫돌은 몬스터가 도망갔을 때 주로 사용하며, 급할 때에는 콤보를 한번 포기하고 사용한다.</i>     
+            </div>
+
+            <div class="manual"> 
+                <strong>파티 운영법</strong>
+                <br>
+                <strong>1.</strong>
+                <i>나를 인식하고 있지 않다면 몬스터의 꼬리/머리쪽으로 이동해 콤보를 사용한다.</i>
+                <br>
+                <strong>2.</strong>
+                <i>콤보 후에는 대부분 플레이어가 몬스터의 머리/꼬리 부분에 위치한다. </i>           
+                <br>
+                <strong>2-1.</strong>
+                <i>2번 상황에서 플레이어가 꼬리 부분에 위치한다면 콤보를 한번 더 써준다.</i>     
+                <br>
+                <strong>2-2.</strong>
+                <i>2번 상황에서 플레이어가 머리 부분에 위치한다면 몬스터의 행동에 따라 선택지가 나뉜다.</i> 
+                <br>
+                <strong>2-2-1.</strong>
+                <i>돌진형 기술이 아니며 보고 반응할 수 있는 수준의 공격을 쓴다면 귀인공무의 무적 프레임으로 씹고 콤보를 쓴다.</i> 
+                <br>
+                <strong>2-2-2.</strong>
+                <i>돌진형 기술 등 귀인공무 히트 이후 콤보가 불가능한 상황일 경우 거리를 벌리고 딜캐로 귀인공무를 쓴다. (대부분 꼬리쪽에서 사용하게 된다.)</i> 
+                <br>
+                <strong>2-2-3.</strong>
+                <i>공격을 할 수 있는 상황이 아니라면 거리를 벌리고 다시 기회를 잡는다.</i> 
+
+            </div>
         </div>
 
     </body>
