@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>몬스터 헌터 빌드 - 탱킹 피리(21.04)</title>
+        <title>몬스터 헌터 빌드 - 힐링 피리(21.04)</title>
         <link rel="stylesheet" href="css/buildStyle.css">
 
     </head>
@@ -11,7 +11,7 @@
 
         <header>
             <div>    
-                <p style="float: left; margin-right: 20px;">탱킹 피리(21.04)</p>            
+                <p style="float: left; margin-right: 20px;">힐링 피리(21.04)</p>            
                 <p style="font-size: 20px; padding-top: 65px;"> <a style="color: darkgreen;" href="index.html">뒤로가기</a> </p>
             </div>
         </header>
@@ -26,8 +26,8 @@
                 <tbody class="equip">
                     <tr>
                         <th>무기</th>
-                        <td><a href="http://mhf.inven.co.kr/dataninfo/mhr/weapon/?code=682">마가유령비파 우라자</a></td>                        
-                        <td>2-1-0</td>
+                        <td><a href="http://mhf.inven.co.kr/dataninfo/mhr/weapon/?code=687">천둥의신적 I</a></td>
+                        <td>0-0-0</td>
                     </tr>
                     <tr>
                         <th>머리</th>
@@ -62,7 +62,7 @@
                     <tr>
                         <th>호석</th>
                         <td>폭풍 신의 호석</td>
-                        <td>2-2-0</td>
+                        <td>3-2-0</td>
                     </tr>
                 </tbody>        
             </table>           
@@ -87,22 +87,12 @@
                         <th class="max">방어 Lv.7</th>
                         <td></td>
                         <td>2</td>
-                        <td class="jewel">2</td>
-                        <td></td>
-                        <td>2</td>
-                        <td></td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <th class="max">KO술 Lv.3</th>
                         <td class="jewel">1</td>
                         <td></td>
-                        <td></td>
                         <td>2</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
+                        <td>2</td>
+                    </tr>                    
                     <tr>
                         <th class="max">정령의 가호 Lv.3</th>
                         <td></td>
@@ -144,6 +134,16 @@
                         <td></td>
                     </tr>    
                     <tr>
+                        <th>KO술 Lv.2</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
                         <th>체력 회복량 UP Lv.2</th>
                         <td></td>
                         <td></td>
@@ -167,11 +167,11 @@
                         <th class="max">피리 명인 Lv.1</th>
                         <td></td>
                         <td></td>
+                        <td class="jewel">1</td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td>1</td>
                     </tr>
                     <tr>
                         <th>포탄 장전 Lv.1</th>
@@ -182,6 +182,16 @@
                         <td></td>
                         <td></td>
                         <td></td>
+                    </tr>
+                    <tr>
+                        <th>장전 속도 Lv.1</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
                     </tr>
                     <tr>
                         <th>식생학 Lv.1</th>
@@ -202,31 +212,21 @@
                         <td></td>
                         <td></td>
                         <td></td>
-                    </tr>
-                    <tr>
-                        <th class="max">양동 Lv.1</th>
-                        <td class="jewel">1</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
+                    </tr>                    
                 </tbody>        
             </table>           
         </div>
 
         <div style="clear: both;">
             <div class="stat">
-                <p style="color: red;">공격력: 209</p>
+                <p style="color: red;">공격력: 207</p>
                 <p style="color: rosybrown;">방어력: 444</p>
                 <p style="color: violet;">회심률: 0%</p>            
-                <p style="color: rgb(139, 21, 0);">폭파속성: 23</p>    
+                <p style="color: rgb(139, 21, 0);">번개속성: 34</p>    
             </div>
     
             <div class="stat">
-                <p>백룡 강화: 공격력 강화 III</p>
+                <p>백룡 강화: 공격력 강화 II</p>
             </div>
 
             <div class="stat" style="width: 400px;">
@@ -241,10 +241,10 @@
                 <strong>주력 기술 커맨드</strong>
                 <br>
                 <strong>1.</strong>
-                <i>소리 방벽: X</i>
+                <i>기절 무효: X</i>
                 <br>
                 <strong>2.</strong>
-                <i>공격력&방어력 UP: A</i>
+                <i>체력 회복[대]: A</i>
                 <br>
                 <strong>3.</strong>
                 <i>체력 지속 회복: X+A</i>
@@ -269,7 +269,7 @@
                 <i>버프가 풀린 것을 인지하면 다시 건다.</i>
                 <br>
                 <strong>3.</strong>
-                <i>소리 방벽 버프는 지속 시간이 매우 짧으므로 X 위주로 공격한다.</i>
+                <i>회복은 즉시 적용되므로 A로만 공격하면 계속 회복이 된다.</i>
                 <br>
                 <strong>4.</strong>
                 <i>진타와 기염의 선율은 데미지가 강한 대신 발동 프레임이 길기 때문에 타이밍에 맞게 써야한다.</i>
