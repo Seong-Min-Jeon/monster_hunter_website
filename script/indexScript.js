@@ -127,7 +127,7 @@ function effect(choice) {
             build.innerHTML = "";
         } else {
             title.innerHTML = "라이트보우건";                                        
-            build.innerHTML = '아직 등록된 빌드가 없습니다.';
+            build.innerHTML = '<a href="build13_1.html">뇌신 관통 라보(21.04)</a><p></p><a href="build13_2.html">철갑참렬 라보(21.04)</a>';
         }
     } else if(choice == 14) {
         var title = document.getElementById("title2");
