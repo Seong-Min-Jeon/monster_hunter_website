@@ -57,7 +57,8 @@ function effect(choice) {
             build.innerHTML = "";
         } else {
             title.innerHTML = "수렵피리";                                        
-            build.innerHTML = '<a href="build6_1.html">탱킹 피리(21.04)</a><p></p><a href="build6_2.html">힐링 피리(21.04)</a>';
+            build.innerHTML = '<a href="build6_1.html">탱킹 피리(21.04)</a><p></p><a href="build6_2.html">힐링 피리(21.04)</a>\
+            <p></p><a href="build6_3.html">딜링 피리(21.04)</a>';
         } 
     } else if(choice == 7) {
         var title = document.getElementById("title1");
